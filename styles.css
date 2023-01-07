@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #001219;
+}
+
+#level-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #E9D8A6;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #E9D8A6;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #9B2226;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #AE2012;
+}
+
+.green {
+  background-color: #94D2BD;
+}
+
+.blue {
+  background-color: #005F73;
+}
+
+.yellow {
+  background-color: #CA6702;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
